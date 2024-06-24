@@ -15,20 +15,20 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
-	int last_digit;
-	last_digit = n % 10;
+	int x;
+	x = n % 10;
 
-	if (last_digit > 5)
+	if (x > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5", n, last_digit);
+		printf("last digit of %d is %d and is greater than 5", n, x);
 	}
-	else if (last_digit == 0)
+	else if (x == 0)
 	{
-		printf("last digit of %d is %d and is zero", n, last_digit);
+		printf("last digit of %d is %d and is zero", n, x);
 	}
 	else
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0", n, last_digit);
+		printf("last digit of %d is %d and is less than 6 and not 0", n, x);
 	}
 	return (0);
 }
