@@ -2,7 +2,7 @@
 
 /**
 *print_sign - entry point prints sign of a number
-*
+*@n: is the character value
 *Return: 1 if greater than or 0 if it is zero or -1 if less than
 */
 int print_sign(int n)
