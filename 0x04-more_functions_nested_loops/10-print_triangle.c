@@ -2,7 +2,7 @@
 
 /**
 *print_triangle - entry point prints a triangle in the terminal
-*
+*@size: is the user input for triangle size
 */
 void print_triangle(int size)
 {
