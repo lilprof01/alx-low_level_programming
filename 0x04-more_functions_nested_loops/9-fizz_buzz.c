@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
-*fizz_buzz - entry point prints number 1 to 100
+*main - entry point prints number 1 to 100
 *but prints fizz for all multiples of 3 and buzz for all multiples of 5
 *and then prints fizzbuzz for multiples of both 3 and 5
-*@i: is our integer variable
 *Return: Always 0 (success)
 */
 int main(void)
 {
-	int i;
+	char i;
 
 	for (i = 1; i <= 100; i++)
 	{
