@@ -3,7 +3,7 @@
 
 /**
 *_puts - entry point prints a string followed by a new line
-*
+*@str: is the character of each index of the string
 *Return: void
 */
 void _puts(char *str)
