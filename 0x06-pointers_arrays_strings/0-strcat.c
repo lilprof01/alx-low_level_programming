@@ -3,7 +3,8 @@
 
 /**
 * *_strcat - entry point concatenates two strings
-*
+*@dest: is the first string
+*@src: is the second string
 *Return: pointer to the string dest
 */
 char *_strcat(char *dest, char *src)
