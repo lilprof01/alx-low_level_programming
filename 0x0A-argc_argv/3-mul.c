@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
-*mul - multiplies two numbers
-*@argc:
-*@argv:
-*Return:
+*main - multiplies two numbers
+*@argc: is the argument count
+*@argv: is the array containing arguments entered into the program
+*Return: always 0 if success or 1 if not
 */
 int main(int argc, char *argv[])
 {
