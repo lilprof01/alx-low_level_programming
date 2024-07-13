@@ -6,7 +6,7 @@
 *main - multiplies two numbers
 *@argc: is the argument count
 *@argv: is the array containing arguments entered into the program
-*Return: always 0 if success or 1 if not
+*Return: 0 if success or 1 if not
 */
 int main(int argc, char *argv[])
 {
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 3)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 	else
