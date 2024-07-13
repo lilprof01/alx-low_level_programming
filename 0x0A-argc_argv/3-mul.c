@@ -10,20 +10,19 @@
 */
 int main(int argc, char *argv[])
 {
-	int i = 1;
-	int mul;
+	int a, b, mul;
 
-	if (argc >= 3)
-	{
-		int a = atoi(argv[i]);
-		int b = atoi(argv[i + 1]);
-		mul = a * b;
-		printf("%d\n", mul);
-	}
-	else
+	if (argc < 3)
 	{
 		printf("error\n");
 		return (1);
+	}
+	else
+	{
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		mul = a * b;
+		printf("%d\n", mul);
 	}
 	return (0);
 }
