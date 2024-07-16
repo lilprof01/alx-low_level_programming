@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
-*
-*
-*
-*
+***alloc_grid - allocates memory and returns a pointer to a 2d array
+*@width: is the number of columns
+*@height: is the number of rows
+*Return: null if failure, or a if success
 */
 int **alloc_grid(int width, int height)
 {
@@ -30,7 +30,7 @@ int **alloc_grid(int width, int height)
 		for (j = 0; j < i; j++)
 	{
 		free(a[j]);
-        }
+	}
 		free(a);
 		return (NULL);
 	}
