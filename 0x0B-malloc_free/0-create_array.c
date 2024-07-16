@@ -12,21 +12,22 @@ char *create_array(unsigned int size, char c)
 {
 	char *a;
 	unsigned int i;
+	a = (char *)malloc(size * sizeof(a));
 
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	a = (char *)malloc(size * sizeof(a));
-
-	if (a == NULL)
+	else if (a == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < size; i++)
+	else
 	{
-		a[i] = c;
+		for (i = 0; i < size; i++)
+		{
+			a[i] = c;
+		}
 	}
-	printf("\n");
 	return (a);
 }
