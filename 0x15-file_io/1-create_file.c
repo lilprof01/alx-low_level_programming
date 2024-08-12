@@ -3,7 +3,7 @@
 /**
 *create_file - entry point creates a file.
 *@filename: is the pointer to the file namee
-*text_content: is the pointer to a string to write to the file
+*@text_content: is the pointer to a string to write to the file
 *Return: 1 if success, or - 1 if it fails
 */
 int create_file(const char *filename, char *text_content)
