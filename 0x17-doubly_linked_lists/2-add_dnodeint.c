@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* add_dnodeint - entry point adds a new node at the beginning of a dlistint_t list.
+* add_dnodeint - adds new node at the beginning of a dlistint_t list.
 * @head: Double pointer to the head of the doubly linked list.
 * @n: The data to store in the new node.
 *
